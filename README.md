@@ -19,6 +19,7 @@ data.zip
     └── val
 
 images: Contains the image data used for training and validation. The train and val folders respectively contain the training and validation images.
+
 labels: Contains the corresponding annotation labels for the images. Similar to the images folder, the train and val folders hold the training and validation annotation files.
 
 ## Usage
@@ -27,7 +28,3 @@ labels: Contains the corresponding annotation labels for the images. Similar to 
 ### Train Model: To train the YOLOv5 model on the provided dataset, use the following command:
 !python train.py --img 640 --batch 2 --epochs 60 --data data.yaml --weights yolov5s.pt --cache
 Evaluate Model: Evaluate the trained model on the validation set to assess its performance. Utilize the evaluation scripts provided in the repository.
-
-Integration: Integrate the trained model into your caution board detection system for visually impaired users. Implement accessibility features such as audio or haptic feedback to assist users in interpreting the detected caution boards.
-Contributing
-Contributions to this project are welcome. Feel free to submit bug fixes, feature enhancements, or suggestions via pull requests or by opening an issue.
