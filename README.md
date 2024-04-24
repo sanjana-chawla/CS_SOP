@@ -9,14 +9,13 @@ The aim of this project is to assist visually impaired individuals in navigating
 The data.zip file included in this repository contains the dataset used for training and evaluation of the caution board detection model. Below is the structure of the data.zip file:
 
 data.zip <br />
-│ <br />
+
 ├── images <br />
-│   ├── train <br />
-│   └── val <br />
-│ <br />
-└── labels <br />
-    ├── train <br />
-    └── val <br />
+  _     ├── train <br />
+  _     └── val <br />
+├── labels <br />
+  _     ├── train <br />
+  _     └── val <br />
 
 images: Contains the image data used for training and validation. The train and val folders respectively contain the training and validation images.
 
